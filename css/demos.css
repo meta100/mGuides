@@ -1,20 +1,49 @@
+#draggable_1 {
+  top: 220px;
+  left: 20px;
+}
+
+#draggable_2 {
+  top: 492px;
+  left: 20px;
+}
+
+#draggable_3 {
+  top: 542px;
+  left: 342px;
+}
+
+#draggable_4 {
+  top: 220px;
+  left: 392px;
+}
+
+.draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  position: absolute;
+  border: 2px #AAA solid;
+}
+
+.demo {
+  margin: 200px;
+  padding: 0; position: relative;
+  border: 1px #777 solid;
+  width: 500px;
+  height: 700px; 
+}
+
 body {
+  margin:0 auto;
+  padding: 0;
 	font-size: 62.5%;
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
 }
 
 table {
 	font-size: 1em;
 }
-
-/* Site
-   -------------------------------- */
-
-body {
-	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
-}
-
-/* Layout
-   -------------------------------- */
 
 .layout-grid {
 	width: 960px;
@@ -39,9 +68,6 @@ body {
 	height: 337px;
 	overflow: hidden;
 }
-
-/* Normal
-   -------------------------------- */
 
 .normal h3,
 .normal h4 {
